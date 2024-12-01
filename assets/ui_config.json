@@ -1,0 +1,40 @@
+{
+  "appBar": {
+    "title": "Home",
+    "backgroundColor": "#ffffff"
+  },
+  "sections": [
+    {
+      "type": "banner",
+      "imageUrl":[
+        "assets/images/img.png",
+        "assets/images/img_1.png",
+        "assets/images/img.png"
+      ],
+      "title": "Flat 15% OFF",
+      "description": "Free Delivery & Installation"
+    },
+    {
+      "type": "grid",
+      "title": "BUY FURNITURE",
+      "items": [
+        { "label": "Living Room", "icon": "living_room_icon" },
+        { "label": "Bedroom", "icon": "bedroom_icon" },
+        { "label": "Storage", "icon": "storage_icon" },
+        { "label": "Study", "icon": "study_icon" },
+        { "label": "Dining", "icon": "dining_icon" },
+        { "label": "Tables", "icon": "tables_icon" },
+        { "label": "Chairs", "icon": "chairs_icon" },
+        { "label": "Z Rated", "icon": "z_rated_icon", "new": true }
+      ]
+    },
+    {
+      "type": "carousel",
+      "title": "Deals of the Day",
+      "items": [
+        { "name": "Flex 3 Seater Magic", "price": 10499, "discount": 72,"placeholder": "img" },
+        { "name": "Flex Fabric 3 Seater", "price": 9499, "discount": 74,"placeholder": "img_1"}
+      ]
+    }
+  ]
+}
